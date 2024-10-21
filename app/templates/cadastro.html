@@ -1,20 +1,61 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-    <form action="/cadastrarUsuario" method="POST">
-      <label>CPF: </label>
-      <input type="text" name="cpf" id="cpf"/><br><br>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Consultar Senac</title>
+</head>
+<body>
+    <div class="login-box">
+        <div class="login-header">
+            <header>Consultar Senac</header>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Email ou Telefone" autocomplete="off" required>
+        </div>
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Senha" autocomplete="off" required>
+        </div>
+
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Senha" autocomplete="off" required>
+        </div>
+
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Senha" autocomplete="off" required>
+        </div>
+
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Senha" autocomplete="off" required>
+        </div>
+
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Senha" autocomplete="off" required>
+        </div>
+        <div class="forgot">
+            <section>
 
 
-      <label>Nome: </label>
-      <input type="text" name="nome" id="nome"/><br><br>
 
 
-      <label>telefone: </label>
-      <input type="text" name="telefone" id=telefone/><br><br>
+</body>
+</html>
 
 
-      <label>Endereço: </label>
-      <input type="text" name="endereco" id="endereco"/><br><br>
+
+    <button>
+    Cancelar
+</button>
+
+
+
+
+
+
 
     <button>Cadastrar</button>
     </form>
@@ -22,4 +63,13 @@
     <a href="/listarIndividual">Consultar individual</a><br><br>
     <a href="/atualizar">Atualizar</a><br><br>
     <a href="/excluir">Excluir</a><br><br>
+    <a href="/cadastronovo"> Cadastro de Usuário </a><br><br>
+    <a href="/listarcomcpf"> Cadastrar com CPF</a>
+    <a href="/cadastrarUsuario"> Cadastrar Usuário</a>
+    <a href="/atualizacao"> Individual</a>
+    <a href="/consultoriaGeral"> Consultoria Geral </a>
+
+
+
+
 {% endblock %}

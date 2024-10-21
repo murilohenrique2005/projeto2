@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Consultar Senac</title>
+</head>
+<body>
+    <div class="login-box">
+        <div class="login-header">
+            <header>Consultar Senac</header>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="O Que você deseja excluir?" autocomplete="off" required>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Houve alguma experiência específica que contribuiu para essa decisão?" autocomplete="off" required>
+        </div>
+
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="O que poderíamos fazer para melhorar a sua experiência? autocomplete="off" required>
+        </div>
+
+
+
+        <button class="button">
+            <a href="excluir"> Cancelar
+            </a>
+  <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+    <path
+      fill-rule="evenodd"
+      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+      clip-rule="evenodd"
+    ></path>
+  </svg>
+</button>
+
+
+
+
+</body>
+</html>
+
+
+
+{% endblock %}

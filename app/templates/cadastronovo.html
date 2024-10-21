@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+
+   <form action="/cadastrarUsuario" method="POST">
+
+        <div class="login-header">
+            <header>Cadastro Usuário</header>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" name="nome" placeholder=" Nome do Cliente" autocomplete="off" required>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" name="endereco" placeholder="Digite o endereço" autocomplete="off" required>
+        </div>
+
+        <div class="input-box">
+            <input type="text" class="input-field" name="cpf" placeholder="Digite o CPF" autocomplete="off" required>
+        </div>
+
+         <div class="input-box">
+            <input type="text" class="input-field" nmae="telefone" placeholder="Digite o Telefone" autocomplete="off" required>
+        </div>
+
+
+        <button type="submit"> Confirmar</button>
+   </form>
+
+
+
+
+
+
+
+
+{% endblock %}
